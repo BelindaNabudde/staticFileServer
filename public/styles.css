@@ -1,0 +1,219 @@
+/* styling the footer*/
+footer{
+    
+    position: relative;
+    /* width: 100%; */
+    height: auto;
+    padding: 50px 100px;
+    background: #5E5559;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin-top: 220px; */
+}
+
+
+footer .footer-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+footer .footer-container .sec{
+
+    margin-right: 30px;
+
+}
+
+
+footer .footer-container .sec.aboutus{
+
+    width: 40%;
+}
+
+footer .footer-container  h2{
+
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+
+}
+
+footer .footer-container  h2:before{
+
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: rgb(124, 170, 51);
+}
+
+
+footer  p{
+
+    color: #999;
+}
+
+.sci{
+
+    margin-top: 20px;
+    display: flex;
+}
+
+.sci li{
+
+    list-style: none;
+}
+
+.sci li a{
+
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.sci li a:hover{
+    background: rgb(124, 170, 51);
+}
+
+.sci li a .fa,
+.fa-brands
+{
+
+    color: #fff;
+    font-size: 20px;
+}
+
+.quickLinks{
+
+    position: relative;
+    width: 25%;
+}
+
+.quickLinks ul li{
+    list-style: none;
+}
+
+.quickLinks ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.quickLinks ul li a:hover{
+
+    color: #fff;
+}
+
+
+.contact-part{
+
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contact-part .info{
+
+    position: relative;
+}
+
+.contact-part .info li{
+
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact-part .info li span:nth-child(1){
+
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+.contact-part .info li span{
+
+    color: #999;
+}
+
+.contact-part .info li a{
+
+    color: #999;
+    text-decoration: none;
+}
+
+.contact-part .info li a:hover{
+
+    color: #fff;
+}
+
+.copyrightText{
+
+    width: 100%;
+    /* background: #181818; */
+    background: #5E5559;
+    padding: 8px 100px;
+    text-align: center;
+    color: #999;
+}
+
+
+/* the about page style */
+.about{
+    width:100%;
+    background-color: #191919;
+    padding-top: 50px;
+}
+#belindanabudde-image{
+    border-radius: 15%;
+    height: 500px;
+    width:500px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.about-text{
+    width:550px;
+}
+.main{
+    width:1130px;
+    max-width:95%;
+    margin:0 auto;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+}
+ .about-text h2{
+     padding-bottom: 25px;
+    color:white;
+    font-size: 75px;
+    text-transform: capitalize;
+} 
+.about-text h5{
+    color:white;
+    padding-top: 25px;
+    letter-spacing:2px;
+    font-size: 22px;
+    margin-bottom:25px;
+    text-transform:capitalize
+}
+#para-1{
+    color:white;
+    font-size: 18px;
+    margin-bottom:45px;
+    font-family: 'Josefin Sans',sans-serif;
+}
